@@ -23,4 +23,5 @@
             </td>
         </tr>
     </table>
+    <a href="/orders/new" class="btn btn-default">Добавить заказ</a>
 @endsection

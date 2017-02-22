@@ -11,15 +11,28 @@
 |
 */
 
-Route::get('/','ProductsController@index');
+
+Route::get('/', function () {
+    return redirect('products');
+});
+
 Route::get('/products','ProductsController@index');
-Route::get('/products/{product}','ProductsController@show');
-Route::get('/add_products','ProductsController@create');
+Route::get('/products/new','ProductsController@create');
 Route::post('/products','ProductsController@store');
+Route::get('/products/{product}','ProductsController@show');
 
 Route::get('/orders','OrdersController@index');
 Route::get('/orders/new','OrdersController@create');
 Route::post('/orders','OrdersController@store');
 
 Route::get('/pages','PagesController@index');
+Route::get('/pages/new','PagesController@create');
+Route::post('/pages','PagesController@store');
+
+Route::get('/login','UsersCustomController@index');
+
+Route::get('/registration','UsersCustomController@create');
+
+
+Route::get('/{page}','PagesController@show');//for static pages
 
