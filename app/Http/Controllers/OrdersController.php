@@ -25,7 +25,7 @@ class OrdersController extends Controller
      */
     public function create()
     {
-        //
+        return view('orders.create');
     }
 
     /**
@@ -34,9 +34,15 @@ class OrdersController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store()
     {
-        //
+        $order = Order::create(request([
+            'customer_name',
+            'email',
+            'phone',
+            'feedback']));
+
+        return redirect('/orders');
     }
 
     /**

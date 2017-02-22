@@ -13,7 +13,9 @@
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="/products">Товары</a></li>
+                <li><a href="/add_products">Добавить товар</a></li>
                 <li><a href="/orders">Заказы</a></li>
+                <li><a href="/orders/new">Добавить заказ</a></li>
                 <li><a href="/pages">Pages</a></li>
             </ul>
         </div><!--/.nav-collapse -->

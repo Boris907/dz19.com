@@ -14,8 +14,12 @@
 Route::get('/','ProductsController@index');
 Route::get('/products','ProductsController@index');
 Route::get('/products/{product}','ProductsController@show');
+Route::get('/add_products','ProductsController@create');
+Route::post('/products','ProductsController@store');
 
 Route::get('/orders','OrdersController@index');
+Route::get('/orders/new','OrdersController@create');
+Route::post('/orders','OrdersController@store');
 
 Route::get('/pages','PagesController@index');
 
