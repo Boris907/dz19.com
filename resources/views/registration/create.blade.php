@@ -22,7 +22,7 @@
                 <label for="password_confirmation">Password confirmation:</label>
                 <input type="password" name="password_confirmation" id="password_confirmation" class="form-control">
             </div>
-            <button type="submit" class="btn btn-primary">Register</button>
+            <button type="submit" class="btn btn-default">Register</button>
         </form>
         @include('layout_parts.errors')
     </div>

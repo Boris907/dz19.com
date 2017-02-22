@@ -21,7 +21,7 @@
                 <label for="feedback">Комментарий</label>
                 <textarea name="feedback" id="feedback" class="form-control"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Оформить заказ</button>
+            <button type="submit" class="btn btn-default">Оформить заказ</button>
         </form>
     </div>
 @endsection

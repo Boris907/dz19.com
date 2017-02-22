@@ -18,7 +18,7 @@
                 <textarea class="form-control" name="content" id="content"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Добавить страницу</button>
+            <button type="submit" class="btn btn-default">Добавить страницу</button>
         </form>
     </div>
 @endsection

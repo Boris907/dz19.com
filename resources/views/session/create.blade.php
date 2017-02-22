@@ -17,7 +17,7 @@
                     <input type="password" id="password" name="password" class="form-control">
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <button type="submit" class="btn btn-default">Sign in</button>
                 </div>
             </form>
             @include('layout_parts.errors')

@@ -22,7 +22,7 @@
                 <textarea class="form-control" name="description" id="description"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Добавить товар</button>
+            <button type="submit" class="btn btn-default">Добавить товар</button>
         </form>
     </div>
 @endsection
